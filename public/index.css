@@ -2,7 +2,11 @@
 header,
 nav,
 content {
+  perspective: 100px;
+  padding:  5px;
   width:  90%;
+  margin-left:  auto;
+  margin-right:  auto;
 }
 
 .table-of-contents: {
@@ -15,6 +19,9 @@ body {
 }
 
 .wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
   background-color:  red;
 }
 
