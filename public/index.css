@@ -1,3 +1,14 @@
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  background-color:  #333;
+  height: 100%;
+  overflow: auto;
+}
+
 .wrapper,
 header,
 nav,
@@ -17,17 +28,15 @@ nav,
   padding:  5px;
 }
 
-body {
-  background-color:  #333;
-}
-
 .wrapper {
-  height: 100vh;
+  min-height: 100vh;
+  padding: 10px;
   background-color:  #EEE;
   perspective: 1000px;
 }
 
 header {
+  padding-top: 10px;
   text-align: center;
 }
 
