@@ -1,0 +1,13 @@
+{
+  "name": "joa",
+  "version": "0.0.1",
+  "description": "JOA website",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
