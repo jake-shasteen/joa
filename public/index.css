@@ -1,0 +1,31 @@
+.wrapper,
+header,
+nav,
+content {
+  width:  90%;
+}
+
+.table-of-contents: {
+  flex: 1;
+  flex-direction: row;
+}
+
+body {
+  background-color:  darkred;
+}
+
+.wrapper {
+  background-color:  red;
+}
+
+header {
+  background-color:  coral;
+}
+
+nav {
+  background-color:  lightcoral;
+}
+
+content {
+  background-color:  orangered;
+}
