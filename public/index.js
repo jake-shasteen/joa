@@ -7,6 +7,7 @@
     $('<h2 class="table-of-contents__header">Table of Contents</h2>'),
     $('<ul class="table-of-contents__list">')
       .append($('<li><a href="/">Home</a></li>'))
+      .append($('<li><a href="/7days">7 Days To Die</a></li>'))
       .append($('<li><a href="/seaofbrass">Sea of Brass</a></li>'))
     );
   };
